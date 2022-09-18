@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeHamster-Lets Nibble The Code</title>
+  <link rel="shortcut icon" type="image" href="assets/images/logowhite.png"  >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/index.css" >
+</head>
+
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://bhuvasblog.atwebpages.com">
+        <img src="assets/images/codehamsters.png" alt="" width="80" height="80" style="border-radius:100px;">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CodeHamster-Let's Nibble The Code</a>
+          </li>
+       
+      </div>
+    </div>
+  </nav>
+
+
+ 
+  <div class="card text-center m-5">
+    <div class="card-header" style="background-color : #212529;">
+      <div class="text-light">Online Code Compiler</div>
+    </div>
+    
+
+    <iframe src="ide/ui/ide.html" title="Ide For Xcode" frameborder="0" style="height: 600px;">
+    </iframe>
+  </div>
+
+  
+    </div>
+  </div>
+
+  
+  <div class="bg-dark">
+      <p class="text-center text-muted">Team-295</p>
+    </footer>
+  </div>
+
+  
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+
+    function setAttr()
+    {
+        let width = window.innerWidth;
+        let btn1 = document.getElementById('btn1')
+        let btn2 = document.getElementById('btn2')
+        let btn3 = document.getElementById('btn3')
+        let btn4 = document.getElementById('btn4')
+        let btn5 = document.getElementById('btn5')
+        let btn6 = document.getElementById('btn6')
+
+        if(width<700)
+        {
+            btn1.href = "quizes/html_quiz.html";
+            btn2.href = "quizes/python_quiz.html";
+            btn3.href = "quizes/cpp_quiz.html";
+            btn4.href = "quizes/node_js_quiz.html";
+            btn5.href = "quizes/php_quiz.html";
+            btn6.href = "quizes/c_quiz.html";
+
+            btn1.removeAttribute('data-toggle')
+            btn2.removeAttribute('data-toggle')
+            btn3.removeAttribute('data-toggle')
+            btn4.removeAttribute('data-toggle')
+            btn5.removeAttribute('data-toggle')
+            btn6.removeAttribute('data-toggle')
+        }
+    }
+
+</script>
+
+</html>
